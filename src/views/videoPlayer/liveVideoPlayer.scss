@@ -1,0 +1,124 @@
+// @import "~video-react/styles/scss/video-react"; //如果影响其他东西注释掉，在HTML使用
+
+.live-video {
+    // background-image: url("./../../assets/img/liveback.png");
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    .live-body {
+        width: 90%;
+
+        .live-bottom {
+            text-align: center;
+            padding-bottom: 1rem;
+            background-color: #fff;
+        }
+
+        .live-title {
+            display: flex;
+            width: 100%;
+            background: rgba(35, 39, 43, 0.74);
+            height: 2rem;
+            line-height: 2rem;
+            z-index: 999;
+            justify-content: space-between;
+
+            // margin-top:1rem;
+            span {
+                color: #fff;
+                font-size: .9rem;
+                font-family: MicrosoftYaHei;
+                letter-spacing: 2px;
+            }
+
+            .live-title-left {
+                margin-left: 0.45rem;
+            }
+
+            .live-title-right {
+                margin-right: 0.45rem;
+            }
+        }
+
+        .live_centen {
+            display: flex;
+            height: 100%;
+
+            .live_centen-left {
+                // border-right: 3px solid #23272b;
+                width: 70%;
+                display: inline-block;
+
+                .live_centen-left-video {
+                    margin-left: 0;
+
+                }
+            }
+
+            .live_centen-right {
+                display: inline-block;
+                width: 30%;
+
+                .live_centen-right-top {
+                    // margin-bottom: 13px;
+                    //   width: 100%;
+                    height: 50%; // height: 17rem;
+                    // background: #005aa0;
+                    // border-bottom: 3px solid #23272b;
+                }
+
+                .live_centen-right-bottom {
+                    //   background-color: #23272b;
+                    //   width: 100%;
+                    height: 50%; // height: 17rem;
+                }
+            }
+        }
+    }
+}
+
+.live-center {
+    // display: table-cell;
+    // vertical-align: middle;
+    height: 38rem;
+}
+
+.live-centers {
+    // display: table-cell;
+    // vertical-align: middle;
+    background: url('./../../assets/img/liveViodeError.png');
+    background-size: 100% 100%;
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // img{
+    //     width: 100%;
+    //     height: 100%;
+    // }
+}
+
+.live-center-error {
+    // position: absolute;
+    // top: 50%;
+    // left: 46%;
+    // margin-left: -50px;
+    // margin-top: -25px;
+}
+
+.live-center-error-span {
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.ant-card-body {
+    padding: 4px;
+}
+
+.liveStyles {
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,141 @@
+.login {
+    background: #f4f4f4;
+    transform: translateY(6rem);
+
+    .login-body {
+        width: 100%;
+        height: 32rem;
+        margin: 0 auto;
+        background: url(./../../assets/img/loginback.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        position: relative;
+
+        .login-body-window {
+            width: 24rem;
+            height: 30rem;
+            background: #ffffff;
+            box-shadow: 0px 0px 4px 1px #aaa;
+            text-align: left;
+            padding-top: 1.5rem;
+            position: absolute;
+            left: 55%;
+            top: 8%;
+
+            .login-body-window-title {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-right: 2rem;
+            }
+
+            .login-body-window-p {
+                font-size: 1.63rem;
+                font-family: SimSun;
+                font-weight: bold;
+                color: #555555;
+                margin-top: 2rem;
+                margin-left: 2.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .login-form {
+                margin-left: 2.2rem;
+
+                .login-form-input {
+                    border: 0.1rem;
+                    height: 2.7rem;
+                    width: 90%;
+
+                    .ant-input {
+                        color: #000;
+                    }
+
+                    .ant-input:focus {
+                        box-shadow: 0 0 0px 1000px white inset;
+                    }
+                }
+
+                .login-form-Verif {
+                    // border: 1px  solid #d9d9d9;
+                    height: 2.7rem;
+                    width: 56%;
+                    color: #000;
+                }
+
+                .login-form-Verif:focus {
+                    box-shadow: 0 0 0px 1000px white inset;
+                }
+
+                .login-form-Verif-imgs {
+                    height: 2.7rem;
+                    margin-top: -3px;
+                }
+
+                .login-form-item {
+
+                    // margin-top: 2rem;
+                    .login-form-button:hover {
+                        background: #fda029
+                    }
+
+                    .login-form-button {
+                        color: #fff;
+                        width: 90%;
+                        height: 3rem;
+                        border: none;
+                        background: #ffaf67;
+                        margin-bottom: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+.pingtai-choice {
+    .ant-modal-close-icon {
+        color: #fff;
+    }
+
+    .ant-modal-header {
+        background: #028BFF;
+        text-align: center;
+
+        .ant-modal-title {
+            color: #fff;
+        }
+
+    }
+
+    .ant-modal-body {
+        .pingtai-choice_button {
+            text-align: center;
+            margin-top: 2rem;
+
+            button {
+                background: #028bff;
+            }
+
+            button[disabled] {
+                background: #6CADFF;
+                color: #fff;
+            }
+        }
+
+    }
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+:global {
+    .ant-input {
+        border-radius: 2px;
+    }
+}

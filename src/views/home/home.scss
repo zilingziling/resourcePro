@@ -1,0 +1,154 @@
+.home {
+    background-color: #fff;
+    font-family: "SimSun"; // overflow: scroll;
+    height:100%;
+    .ant-layout {
+        background-color: #fff;
+    }
+
+    .ant-tabs-bar {
+        width: 100% !important;
+    }
+
+    .home-body {
+        text-align: left;
+        height: 100%;
+
+        .ant-breadcrumb {
+            padding: 0.2rem;
+            font-size: 0.88rem;
+
+            .ant-breadcrumb-link {
+                color: #827373
+            }
+        }
+
+        .home_layout {
+            min-height: calc(100% - 30px);
+        }
+
+        .home_header {
+            background-color: #fff;
+            padding: 0;
+            height: 100%;
+        }
+
+        .home_sider {
+            background-color: #fff;
+            margin-right: 1rem;
+
+            .syllabus_header {
+                font-size: 1rem;
+                color: #018ce0;
+                font-weight: 600;
+            }
+
+            .syllabus_content {
+                height: 100%;
+                border: 1px solid #ded5d5;
+            }
+        }
+
+        .home_section {
+            background-color: #fff;
+        }
+
+        .home_footer {
+            padding: 0;
+        }
+
+        margin-top: 0;
+
+
+
+        .home-bottom {
+            background-color: #fff; // margin-top: 1rem;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+
+
+
+    :global {
+        .ant-tabs-ink-bar {
+            background-color: #d0111b;
+            height: 2px;
+        }
+
+        .ant-row {
+            margin-right: -55px !important;
+        }
+
+        .ant-tabs-content-animated {
+            background: #fff;
+            padding-top: 0.5rem;
+        }
+
+        .ant-input {
+            border-radius: 2px;
+        }
+
+        .ant-tabs-nav .ant-tabs-tab-active {
+            color: #d0111b;
+        }
+
+        .ant-tabs-nav .ant-tabs-tab-active:hover {
+            color: #d0111b;
+        }
+
+        .ant-tabs-nav .ant-tabs-tab {
+            display: inline-block;
+            height: 100%;
+            margin: 0 0 0 0;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            position: relative;
+            transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .ant-tabs-ink-bar {
+            height: 2px;
+        }
+
+        .ant-tabs-large>.ant-tabs-bar .ant-tabs-tab {
+            padding: 0px;
+        }
+
+        .ant-tabs-bar {
+            border-bottom: none;
+            width: 70rem;
+            margin: 0 auto;
+        }
+
+        .ant-tabs-nav-scroll {
+            // margin-bottom: 0.5rem;
+        }
+
+        .ant-tabs-tabpane .ant-tabs-tabpane-active {
+            background-color: #f4f4f4;
+        }
+
+        .ant-card-head-title {
+            padding: 0;
+        }
+
+        .ant-card-head {
+            padding: 0;
+        }
+
+        .ant-card-body {
+            padding: 8px;
+        }
+    }
+}
+
+// .ant-tabs-nav .ant-tabs-tab {
+//     padding: 0;
+// }
+
+.ant-tabs .ant-tabs-large-bar .ant-tabs-tab {
+    padding: 12px 16px;
+}

@@ -1,0 +1,183 @@
+.Header {
+    font-family: 'SimSun';
+    text-align: center;
+    height: inherit;
+    line-height: 64px;
+    width: 100%;
+    display: inline-block;
+
+    .Header-top {
+        height: 64px;
+        background: linear-gradient(-90deg, rgba(16, 101, 211, 1), rgba(92, 169, 252, 1), rgba(30, 179, 248, 1), rgba(3, 118, 249, 1));
+
+        .Header-top_container {
+            width: 70%;
+            height: inherit;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+            .Header-left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Header_logo {
+                    font-size: 1.5rem;
+                    font-family: YouYuan;
+                    font-weight: bold;
+                    color: rgba(255, 255, 255, 1);
+                    letter-spacing: .2rem;
+
+                    .Header_logo_text {
+                        font-size: 1.5rem;
+                        font-family: YouYuan;
+                        font-weight: bold;
+                    }
+                }
+
+                .Header-left-img1 {
+                    width: 2rem;
+                    margin-right: 1.13rem;
+                }
+
+
+
+                .Header-left-spans {
+                    margin-left: 2.3rem;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+
+
+            }
+
+            .Header-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Header-right-input {
+                    width: 26rem;
+                    margin-right: 1rem;
+                    vertical-align: middle;
+
+                    ::-moz-placeholder {
+                        color: #fff;
+                        font-size: 0.8rem
+                    }
+
+                    ::-webkit-input-placeholder {
+                        color: #fff;
+                        font-size: 0.8rem
+                    }
+
+                    :-ms-input-placeholder {
+                        color: #fff;
+                        font-size: 0.8rem
+                    }
+
+                    input {
+                        background: rgba(0, 0, 0, 0.0);
+                        border: 0.1rem solid #18c1fc;
+                        color: #fff;
+                        font-size: 0.8rem;
+                        height: 2rem;
+                    }
+
+                    button {
+                        background: #18c1fc;
+                        border: none;
+                        height: 2rem;
+                    }
+                }
+
+                .Header-right-name {
+                    color: #fff;
+                    font-size: 1rem;
+                }
+
+                .Header-rights {
+                    float: right;
+
+                    .Header-right-name {
+                        color: #fff;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .Header-Nav {
+        height: 46px;
+        background: #fff;
+        text-align: left;
+
+        .Header-Nav_container {
+            width: 100%;
+            margin: auto;
+
+            .Header_nav_menu {
+
+                .ant-menu {
+                    padding-left: 18%;
+                    // border-bottom: 0;
+                    // height: 2.13rem;
+                    // font-weight: 400;
+                    // background: none;
+                    // color: rgba(255, 255, 255, 1);
+
+                    .ant-menu-item {
+                        padding: 0px 1rem;
+                        margin-right: 5rem;
+                        font-size: 1.13rem;
+                        font-family: MicrosoftYaHei;
+                        font-weight: 400;
+                        color: #2B2A2A;
+                    }
+
+                }
+
+                .ant-menu-horizontal {
+                    .ant-menu-item-selected {
+                        border-bottom: 2px solid #FCB316;
+                        color: #026DFF;
+                    }
+
+                    // .ant-menu-item-active {
+                    //     color: #fff;
+                    //     opacity: 0.49;
+                    //     border-radius: 0rem;
+                    //     border: none;
+                    // }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+:global {
+    .ant-input {
+        border-radius: 2px;
+    }
+}
+
+.hovers {
+    width: 5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.hovers:hover {
+
+
+    background-color: #2d95e7;
+
+}

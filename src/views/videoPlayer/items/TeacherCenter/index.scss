@@ -1,0 +1,58 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.root {
+    @include center;
+    width: 24rem;
+    height: 7.25rem !important;
+    padding: 0 1.1rem;
+    font-size: 1rem;
+    // margin: 1rem 0 0 0;
+    color: #000000;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 4px rgba(111, 129, 137, 0.54);
+
+    &_left {
+        width: 3.9rem;
+        height: 3.9rem;
+        border-radius: 50%;
+        background-color: azure;
+    }
+
+    &_right {
+        flex: 1;
+        height: 3.9rem;
+        margin: 0 0 0 1.1rem;
+        text-align: left;
+
+        >div {
+            font-size: 14px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            height: 1.5rem;
+        }
+
+        &_top {
+            color: rgba(4, 4, 4, 1);
+        }
+
+        &_center {
+            color: rgba(4, 4, 4, 1);
+        }
+
+        &_bottom {
+            @include ellipsis;
+            cursor: pointer;
+            color: #2878ff;
+        }
+    }
+}

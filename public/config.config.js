@@ -1,0 +1,9 @@
+host = '172.16.3.155'; // hostname or IP address
+port = 61614;
+addtopic = 'mqtt-topic-demo';
+useTLS = false;
+username = "admin";
+password = "yjtx@123456";
+cleansession = false;
+PRO_TITLE = "弈简教学督导平台";//项目名称
+VERSION = "1.5.0";

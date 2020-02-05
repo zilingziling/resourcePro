@@ -1,0 +1,147 @@
+.educationinfo {
+    .educationinfo-body {
+        .educationinfo-title {
+            padding: 0 2rem;
+            background: #fff;
+
+            .educationinfo-title_content {
+                text-align: left;
+                height: 5rem;
+                font-size: 1.75rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 600;
+
+                color: rgba(51, 51, 51, 1);
+                line-height: 5rem;
+                border-bottom: 1px solid #EDEDED;
+
+                .educationinfo-title_info {
+                    border-bottom: 3px solid #434343;
+                    display: block;
+                    width: 10rem;
+                    height: 5rem;
+                    text-align: center;
+                }
+            }
+
+        }
+
+        .educationinfo-list {
+            padding: 0 2rem;
+            background: #fff;
+
+            .ant-spin-container {
+                // & :nth-child(1n).ant-list-item {
+                //     background: #fff;
+                //     min-height: 5rem;
+                //     font-size: 1.13rem;
+                //     font-family: MicrosoftYaHei;
+                //     font-weight: 400;
+                //     color: rgba(51, 51, 51, 1);
+                // }
+
+                .ant-list-item {
+                    background: #fff;
+                    min-height: 5rem;
+                    font-size: 1.13rem;
+                    font-family: MicrosoftYaHei;
+                    font-weight: 400;
+                    color: rgba(51, 51, 51, 1);
+                    border-bottom: 1px dashed #e8e8e8;
+
+                    &:hover {
+                        cursor: pointer;
+
+                        .educationinfo-list-item_title {
+                            color: #026dff;
+                        }
+
+                        .educationinfo-list-item_time {
+                            color: #FF5454;
+                        }
+
+                    }
+                }
+            }
+
+            .ant-pagination {
+                text-align: center;
+                min-height: 5rem;
+                line-height: 5rem;
+            }
+
+        }
+    }
+}
+
+.educationinfo-details {
+    .educationinfo-details-body {
+        padding: 1rem 3rem;
+        background: #fff;
+
+        .educationinfo-details-title {
+
+            .educationinfo-details-title_top {
+                line-height: 5rem;
+                font-size: 2rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+            }
+
+            .educationinfo-details-title_bottom {
+                span {
+                    display: inline-block;
+                    width: 30rem;
+                    font-size: 1rem;
+                    font-family: MicrosoftYaHei;
+                    font-weight: 400;
+                    color: rgba(153, 153, 153, 1);
+                }
+            }
+        }
+
+        .educationinfo-details-content {
+            text-align: initial;
+            p{
+                line-height: 2.5rem;
+            }
+            img {
+                display: block;
+                margin: auto;
+            }
+        }
+
+        .educationinfo-details-footer {
+            height: 8rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                font-size: 1.13rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                margin: 2rem;
+
+                &:hover {
+                    color: #026DFF;
+                }
+            }
+
+            .a_disabled {
+                pointer-events: none;
+                color: #999999;
+                // filter: alpha(opacity=50);
+                /*IE滤镜，透明度50%*/
+                // -moz-opacity: 0.5;
+                /*Firefox私有，透明度50%*/
+                // opacity: 0.5;
+                /*其他，透明度50%*/
+            }
+
+            .a_notdisabled {}
+        }
+    }
+}

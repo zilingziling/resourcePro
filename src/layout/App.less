@@ -1,0 +1,66 @@
+@import "./../../node_modules/video-react/dist/video-react.css";
+.App {
+    text-align: center;
+    .resource_container{
+        background:rgba(244,244,244,1);
+        .resource_header{
+            padding: 0;
+            background:none;
+            height: 100%;
+            line-height: normal;
+        }
+        .resource_main{
+            background:rgba(244,244,244,1);
+            min-height: 800px;
+            // min-height: calc(100% - 10rem);
+            // overflow: auto;
+            font-family: "SimSun";
+            margin-top: 1rem;
+            >div{
+                width: 63%;
+                margin: 0 auto;
+                height: 100%;
+            }
+        }
+        .resource_footer{
+            height: 5rem;
+            background:rgba(255,255,255,1);
+            padding: 0;
+            border-top: 1px solid red;
+        }
+    }
+    .compatibility-item {
+        background: #fff;
+        color: #d80000;
+        height: 3rem;
+        font-size: 1rem;
+        width: 100%;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .compatibility-info {
+          display: inline-flex;
+          align-items: center;
+          img {
+            margin-right: 0.8rem;
+          }
+        }
+        .compatibility-handle {
+          display: inline-flex;
+          align-items: center;
+          img {
+            margin-left: 1rem;
+          }
+          a {
+            color: #000;
+            margin-left: 3rem;
+          }
+          a.compatibility-handle_download{
+            margin-left: .5rem;
+            text-decoration-line: underline;
+          }
+          
+        }
+      }
+}
