@@ -52,7 +52,7 @@ class Item extends Component {
 										})
 										: null}
 								</div>
-								<div className="item-grade-right">
+								<div style={{display:this.state.list.courseType.length>9?'block':'none'}} className="item-grade-right">
 									<a
 										style={this.state.courseType === false ? { border: '1px solid #d2d2d1', } : null}
 										className="item-grade-right-a"
@@ -87,7 +87,7 @@ class Item extends Component {
 									})
 									: null}
 							</div>
-							<div className="item-grade-right">
+							<div style={{display:this.state.list.classes.length>9?'block':'none'}} className="item-grade-right">
 								<a
 									className="item-grade-right-a"
 									style={this.state.grade === false ? { border: '1px solid #d2d2d1', } : null}
@@ -119,7 +119,7 @@ class Item extends Component {
 								})
 								: null}
 						</div>
-						<div className="item-grade-right">
+						<div style={{display:this.state.list.dict.length>9?'block':'none'}} className="item-grade-right">
 							<a
 								style={this.state.course === false ? { border: '1px solid #d2d2d1', } : null}
 								className="item-grade-right-a"
@@ -156,7 +156,7 @@ class Item extends Component {
 								})
 								: null}
 						</div>
-						<div className="item-grade-right">
+						<div style={{display:this.state.list.teacher.length>9?'block':'none'}} className="item-grade-right">
 							<a
 								className="item-grade-right-a"
 								style={this.state.lecturer === false ? { border: '1px solid #d2d2d1', } : null}
